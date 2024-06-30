@@ -6,7 +6,7 @@ export default function App() {
   return (
    <div className='flex flex-col '> 
    <Navbar></Navbar>
-    <Spline scene="https://prod.spline.design/9mRzVM9RPXfj6yHY/scene.splinecode" />
+   <Spline scene="https://prod.spline.design/9mRzVM9RPXfj6yHY/scene.splinecode" />
    </div>
   );
 }

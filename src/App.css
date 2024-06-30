@@ -1,0 +1,10 @@
+.navbar-container{
+    font-family: "Playwrite US Modern", cursive;
+    font-weight: 600;
+    font-style: normal;
+}
+.vl{
+    height: 30px;
+    width: 2px;
+    background-color: rgb(26, 26, 26);
+}

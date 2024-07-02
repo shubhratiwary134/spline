@@ -2,7 +2,7 @@ import '../App.css'
 
 const Navbar = () => {
   return (
-    <div className='flex justify-between  bg-[#8C8C8E] p-2   text-black text-2xl navbar-container'> 
+    <div className='flex justify-between  bg-[#8C8C8E] p-2   text-gray-700 text-sm navbar-container'> 
         <div>Logo</div>
         <div >
             <ul className=' flex justify-around gap-10 '>

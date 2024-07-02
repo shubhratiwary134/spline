@@ -1,8 +1,11 @@
-.navbar-container{
+/* .navbar-container{
     font-family: "Playwrite US Modern", cursive;
     font-weight: 600;
     font-style: normal;
-}
+} */
+ .navbar-container{
+    font-weight: 600;
+ }
 .vl{
     height: 30px;
     width: 2px;

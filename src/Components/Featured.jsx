@@ -6,7 +6,7 @@ import headphones from "../assets/images/earphone.jpg"
 import drone from "../assets/images/camera.jpg"
 const Featured = () => {
   return (
-    <div className='w-full flex flex-col mt-12 mx-5 items-center '>
+    <div className='w-full flex flex-col mt-12 mx-5 items-center featured-container '>
      <motion.div
      initial={{}}
      transition={{repeat:Infinity}}

@@ -3,10 +3,10 @@ import {motion } from 'framer-motion'
 
 import camera from "../assets/images/camera3.jpg"
 import headphones from "../assets/images/earphone.jpg"
-import drone from "../assets/images/camera.jpg"
+import drone from "../assets/images/drone7.jpg"
 const Featured = () => {
   return (
-    <div className='w-full flex flex-col mt-12 mx-5 items-center featured-container '>
+    <div className='w-full flex flex-col mt-12  items-center featured-container '>
      <motion.div
      initial={{}}
      transition={{repeat:Infinity}}
@@ -19,14 +19,14 @@ const Featured = () => {
       </motion.div>
       <div className='mt-10 w-full flex flex-col items-center '>
        
-        <div className='mb-20'>
-          <img src={camera} className='max-h-full hover:scale-105 duration-200'></img>
+        <div className='w-full flex justify-center mb-20 hover:bg-black duration-500'>
+          <img src={camera} className='max-h-full hover:scale-105 duration-700'></img>
         </div>
-        <div className='mb-40'>
-          <img src={headphones} className='max-h-full hover:scale-105 duration-200'></img>
+        <div className='w-full flex justify-center  hover:bg-black duration-500'>
+          <img src={headphones} className='max-h-full hover:scale-105 duration-700'></img>
         </div>
-        <div >
-          <img src={drone} className='max-h-full hover:scale-105 duration-200'></img>
+        <div className=' w-full flex justify-center mt-20 hover:bg-black duration-500'>
+          <img src={drone} className='max-h-full  '></img>
         </div>
        
       </div>

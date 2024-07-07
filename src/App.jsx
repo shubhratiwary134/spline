@@ -5,13 +5,16 @@ import Featured from './Components/Featured';
 export default function App() {
   return (
     <div  >
+      <div className='h-screen flex flex-col justify-between'>
       <div>
         <Navbar></Navbar>
       </div>
-       <div className='h-screen  m-5 rounded-3xl  '>
-       <Spline scene="https://prod.spline.design/9mRzVM9RPXfj6yHY/scene.splinecode" className='rounded-3xl'/>
+       <div className=' shadow-black overflow-hidden object-contain'>
+       <Spline scene="https://prod.spline.design/9mRzVM9RPXfj6yHY/scene.splinecode" className='h-full'/>
     </div>
-    <div className='flex w-full  justify-center items-center'>
+      </div>
+      
+    <div className='mt-5 flex w-full  justify-center items-center'>
      <Featured></Featured>
     </div>
    

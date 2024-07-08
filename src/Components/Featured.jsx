@@ -17,12 +17,12 @@ const Featured = () => {
 
       </motion.p>
       </motion.div>
-      <div className='mt-10 w-full flex flex-col items-center '>
+      <div className='mt-5 w-full flex flex-col items-center '>
        
         <div className='w-full flex justify-center mb-20 hover:bg-black duration-500'>
           <img src={camera} className='max-h-full hover:scale-105 duration-700'></img>
         </div>
-        <div className='w-full flex mb-10 justify-center  hover:bg-black duration-500'>
+        <div className='w-full flex  justify-center  hover:bg-black duration-500'>
           <img src={headphones} className='max-h-full hover:scale-105 duration-700'></img>
         </div>
         <div className=' w-full flex justify-center mt-20 hover:bg-black duration-500'>

@@ -16,7 +16,7 @@ export default function App() {
     
       </div>
       
-    <div className='mt-5 flex w-full  justify-center items-center'>
+    <div className='mt-5 flex w-full '>
      <Featured></Featured>
     </div>
     <ImageScroll></ImageScroll>

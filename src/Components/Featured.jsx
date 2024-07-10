@@ -6,24 +6,33 @@ import headphones from "../assets/images/earphone.jpg"
 import drone from "../assets/images/drone7.jpg"
 const Featured = () => {
   return (
-    <div className='w-full flex flex-col mt-12  items-center featured-container '>
+    <div className='w-full flex flex-col mt-8  items-center featured-container '>
      <motion.div
-     initial={{}}
-     transition={{repeat:Infinity}}
+     initial={{opacity:0}}
+     animate={{opacity:[0.3,0.7,0.3]}}
+     transition={{repeat:Infinity,duration:3}}
      
      >
-      <motion.p className='text-9xl text-red-500'>
+      <motion.p className='text-9xl '>
       Trending products
       
       </motion.p>
       </motion.div>
-      <div className='mt-5 w-full flex flex-col items-center '>
+      <div className='mt-12 w-full flex flex-col items-center '>
        
-        <div className='w-full flex justify-center mb-20 hover:bg-black duration-500'>
-          <img src={camera} className='max-h-full hover:scale-105 duration-700'></img>
+        <div className='w-full flex justify-end mb-20 '>
+          <div>lorem epsun</div>
+          <motion.img 
+          whileHover={{scale:1.15}}
+          transition={{duration:.5}}
+         
+          src={camera} className='max-h-full '></motion.img>
         </div>
-        <div className='w-full flex  justify-center  hover:bg-black duration-500'>
-          <img src={headphones} className='max-h-full hover:scale-105 duration-700'></img>
+        <div className='w-full flex  justify-start '>
+          <motion.img 
+           whileHover={{scale:1.15}}
+           transition={{duration:.5}}
+          src={headphones} className='max-h-full '></motion.img>
         </div>
         <div className=' w-full flex justify-center mt-20 hover:bg-black duration-500'>
           <img src={drone} className='max-h-full'></img>

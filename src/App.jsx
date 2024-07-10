@@ -1,6 +1,7 @@
 import Spline from '@splinetool/react-spline';
 import Navbar from './Components/Navbar';
 import Featured from './Components/Featured';
+import ImageScroll from './Components/ImageScroll';
 
 export default function App() {
   return (
@@ -18,6 +19,7 @@ export default function App() {
     <div className='mt-5 flex w-full  justify-center items-center'>
      <Featured></Featured>
     </div>
+    <ImageScroll></ImageScroll>
    
     </div>
    

@@ -12,6 +12,7 @@ const Navbar = () => {
                 <li><a href='#' className='hover:text-black duration-200'>Mobile</a></li>
                 <li><a href='#' className='hover:text-black duration-200'>Tablet</a></li>
                 <li><a href='#' className='hover:text-black duration-200'>Earphone</a></li>
+                <li><a href='#' className='hover:text-black duration-200'>Drone</a></li>
                 {/* <div className='vl'></div> */}
                 <li><a href='#' className='hover:text-black duration-200'>Contact</a></li>
             </ul>

@@ -10,7 +10,6 @@ export default function App() {
         <Navbar></Navbar>
       </div>
       <div className='flex-1 overflow-hidden'>
-     
       <Spline scene="https://prod.spline.design/9mRzVM9RPXfj6yHY/scene.splinecode" />
       </div>
     

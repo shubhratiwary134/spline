@@ -12,9 +12,9 @@ const Featured = () => {
      transition={{repeat:Infinity}}
      
      >
-      <motion.p className='text-9xl '>
+      <motion.p className='text-9xl text-red-500'>
       Trending products
-
+      
       </motion.p>
       </motion.div>
       <div className='mt-5 w-full flex flex-col items-center '>

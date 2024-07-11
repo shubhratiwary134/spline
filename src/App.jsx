@@ -15,8 +15,9 @@ export default function App() {
       </div>
     
       </div>
-      <ImageGallery></ImageGallery>
+     
       <ImageScroll></ImageScroll>
+      <ImageGallery></ImageGallery>
     <div className=' flex w-full '>
      <Featured></Featured>
     </div>

@@ -2,7 +2,7 @@ import Spline from '@splinetool/react-spline';
 import Navbar from './Components/Navbar';
 import Featured from './Components/Featured';
 import ImageScroll from './Components/ImageScroll';
-
+import ImageGallery from './Components/ImageGallery';
 export default function App() {
   return (
     <div  >
@@ -15,12 +15,13 @@ export default function App() {
       </div>
     
       </div>
-      
-    <div className='mt-5 flex w-full '>
+      <ImageGallery></ImageGallery>
+      <ImageScroll></ImageScroll>
+    <div className=' flex w-full '>
      <Featured></Featured>
     </div>
-    <ImageScroll></ImageScroll>
-   
+    
+  
     </div>
    
   );

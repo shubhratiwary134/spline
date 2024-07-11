@@ -1,35 +1,25 @@
-import React from 'react'
+
 import drone from "../assets/images/drone7.jpg"
+import pol1 from "../assets/images/pol1.jpg"
+import pol2 from "../assets/images/pol2.jpg"
+import pol3 from "../assets/images/pol3.jpg"
+import pol4 from "../assets/images/pol4.jpg"
 const ImageScroll = () => {
   return (
    
       <div       
-        className=' w-full bg-black flex justify-around items-start mt-20 '>
-           <div className=' w-1/2 p-10 info text-xl text-white '>
-          <ul className='text-wrap flex flex-col  gap-10'>
-            <li> <span  className='text-red-500'>Resolution:</span> 24.2 Mp</li>
-            <li> <span className='text-red-500'>Sensor Type:</span> Full-frame CMOS sensor</li>
-            <li> <span className='text-red-500'>ISO Range:</span> 100-51,200 </li>
-            <li> <span className='text-red-500'>Video Recording:</span> 4K UHD at 30fps</li>
-            <li><span className='text-red-500'>Weather Sealing:</span> Dust and moisture-resistant body</li>
-            <li><span className='text-red-500'> Screen:</span> 3.2-inch Vari-angle Touchscreen LCD</li>
-            <li><span className='text-red-500'>Dual Pixel AF: </span>Fast and accurate autofocus for both photo</li>
-          </ul>
+        className=' w-full bg-black flex justify-around items-start  '>
+         <div >
+          <img src={pol1} className='max-h-96 rotate-12 '></img>
+          <p className='text-lg text-white'>lorem kamciosdcnsc skc osincscsoi</p>
+          <img src={pol2 } className='max-h-96 -rotate-6'></img>
+          <p>lorem kamciosdcnsc skc osincscsoi</p>
+          <img src={pol4} className='max-h-96 rotate-6  '></img>
+          <img src={pol3} className='max-h-96 rotate-45 '></img>
          
-          
-          </div>
+         </div>
           <img src={drone} className='sticky top-0 '></img>
-          <div className=' w-1/2 p-10 info text-xl text-white '>
-          <ul className='text-wrap flex flex-col  gap-10'>
-            <li> <span  className='text-red-500'>Resolution:</span> 24.2 Mp</li>
-            <li> <span className='text-red-500'>Sensor Type:</span> Full-frame CMOS sensor</li>
-            <li> <span className='text-red-500'>ISO Range:</span> 100-51,200 </li>
-            <li> <span className='text-red-500'>Video Recording:</span> 4K UHD at 30fps</li>
-            <li><span className='text-red-500'>Weather Sealing:</span> Dust and moisture-resistant body</li>
-            <li><span className='text-red-500'> Screen:</span> 3.2-inch Vari-angle Touchscreen LCD</li>
-            <li><span className='text-red-500'>Dual Pixel AF: </span>Fast and accurate autofocus for both photo</li>
-          </ul>
-          </div>
+          
         </div>
 
   )

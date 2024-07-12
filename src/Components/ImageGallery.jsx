@@ -10,20 +10,20 @@ const ImageGallery = () => {
   const {scrollYProgress}=useScroll({
     target:ref,
   })
-  const x = useTransform(scrollYProgress,[0,1],["1%","-95%"])
+  
+  const x = useTransform(scrollYProgress,[0,1], ["1%","-170%"])
   return (
     <>
-      <div ref={ref} className='relative h-[300vh] bg-neutral-900'>
+      <div ref={ref} className='relative h-[700vh] bg-neutral-900'>
         <div className='sticky top-0 h-screen flex items-center overflow-hidden'>
-           <motion.div style={{x}} className="flex  items-center">
-            <img src={imageCamera} className="w-screen "></img>
-            <img src={imageCamera2} className="w-screen"></img>
-            <img src={imageDrone}></img>
-            <img src={headphoneImage}></img>
+           <motion.div style={{x}} className="flex  gap-4 w-[800%]">
+            <img src={imageCamera}  ></img>
+            <img src={imageCamera2} ></img>
+            <img src={imageDrone} ></img>
+            <img src={headphoneImage} ></img>
             <img src={imageCamera} ></img>
-            <img src={imageCamera2}></img>
-            <img src={imageDrone}></img>
-            <img src={headphoneImage}></img>
+            <img src={imageCamera2} ></img>
+           
            </motion.div>
         </div>
       </div>

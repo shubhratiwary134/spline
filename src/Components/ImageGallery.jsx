@@ -15,7 +15,7 @@ const ImageGallery = () => {
   return (
     <>
       <div ref={ref} className=' relative h-[700vh] bg-neutral-900'>
-        <div className='p-10 sticky top-0 h-screen flex   overflow-hidden'>
+        <div className='p-10 sticky top-0 h-screen flex  overflow-hidden'>
            <motion.div style={{x}} className="flex gap-4 ">
             <img src={imageCamera} className="hover:scale-105 duration-300"></img>
             <img src={imageCamera2} className="hover:scale-105 duration-300" ></img>

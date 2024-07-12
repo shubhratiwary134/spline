@@ -58,7 +58,7 @@ const ImageScroll = () => {
             once:false,
             amount:0.5
           }}
-          src={drone} className='sticky top-0 '></motion.img>
+          src={drone} className='sticky top-0  '></motion.img>
           
         </div>
 

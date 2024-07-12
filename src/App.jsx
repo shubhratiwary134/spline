@@ -18,9 +18,9 @@ export default function App() {
      
       <ImageScroll></ImageScroll>
       <ImageGallery></ImageGallery>
-    <div className=' flex w-full '>
+    {/* <div className=' flex w-full '>
      <Featured></Featured>
-    </div>
+    </div> */}
     
   
     </div>

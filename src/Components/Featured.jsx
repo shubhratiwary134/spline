@@ -21,7 +21,15 @@ const Featured = () => {
       <div className=' w-full flex flex-col'>
        
         <div className='mt-10 w-full flex  items-center  mb-20  '>
-          <div className=' w-1/3 p-10 info text-xl  '>
+          <motion.div
+          initial={{x:-200}}
+          whileInView={{x:0}}
+          transition={{duration:.5}}
+          viewport={{
+            amount:0.2,
+            
+          }}
+          className=' w-1/3 p-10 info text-xl  '>
           <ul className='text-wrap flex flex-col items-end gap-10'>
             <li> <span  className='text-red-500'>Resolution:</span> <br></br> 24.2 Mp</li>
            
@@ -30,12 +38,26 @@ const Featured = () => {
            
            
           </ul>
-          </div>
+          </motion.div>
           
-          <img 
-          
-          src={camera} className='scale-110 max-h-full '></img>
-          <div className=' w-1/3 p-10 info text-xl  '>
+          <motion.img 
+          initial={{y:200}}
+          whileInView={{y:0}}
+          transition={{duration:.5}}
+          viewport={{
+           
+            amount:0.1
+          }}
+          src={camera} className='scale-110 max-h-full '></motion.img>
+          <motion.div 
+            initial={{x:200}}
+            whileInView={{x:0}}
+            transition={{duration:.5}}
+            viewport={{
+              amount:0.2,
+              
+            }}
+          className=' w-1/3 p-10 info text-xl  '>
           <ul className='text-wrap flex flex-col items-start  gap-10'>
             <li> <span  className='text-red-500'>Resolution:</span> <br></br> 24.2 Mp</li>
             <li> <span className='text-red-500'>Sensor Type:</span> <br></br>Full-frame CMOS sensor</li>
@@ -44,7 +66,7 @@ const Featured = () => {
             <li><span className='text-red-500'> Screen:</span><br></br> 3.2-inch Vari-angle Touchscreen LCD</li>
             <li><span className='text-red-500'>Dual Pixel AF: </span><br></br>Fast and accurate autofocus for both photo</li>
           </ul>
-          </div>
+          </motion.div>
         </div>
         <div className='w-full flex justify-around'>
           

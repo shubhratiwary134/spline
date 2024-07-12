@@ -1,8 +1,8 @@
 
-import pol1 from "../assets/images/pol1.jpg"
-import pol2 from "../assets/images/pol2.jpg"
-import pol3 from "../assets/images/pol3.jpg"
-import pol4 from "../assets/images/pol4.jpg"
+import imageCamera from "../assets/images/ImageCamera.jpg"
+import imageCamera2 from "../assets/images/ImageGallery2.jpg"
+import imageDrone from "../assets/images/ImageDrone.jpg"
+import headphoneImage from "../assets/images/HeadphoneImage.jpg"
 import { useRef } from "react"
 import { useScroll,motion,useTransform } from "framer-motion"
 const ImageGallery = () => {
@@ -15,11 +15,15 @@ const ImageGallery = () => {
     <>
       <div ref={ref} className='relative h-[300vh] bg-neutral-900'>
         <div className='sticky top-0 h-screen flex items-center overflow-hidden'>
-           <motion.div style={{x}} className="flex gap-4">
-            <img src={pol1}></img>
-            <img src={pol2}></img>
-            <img src={pol3}></img>
-            <img src={pol4}></img>
+           <motion.div style={{x}} className="flex  items-center">
+            <img src={imageCamera} className="w-screen "></img>
+            <img src={imageCamera2} className="w-screen"></img>
+            <img src={imageDrone}></img>
+            <img src={headphoneImage}></img>
+            <img src={imageCamera} ></img>
+            <img src={imageCamera2}></img>
+            <img src={imageDrone}></img>
+            <img src={headphoneImage}></img>
            </motion.div>
         </div>
       </div>

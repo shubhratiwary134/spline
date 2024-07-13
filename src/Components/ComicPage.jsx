@@ -74,15 +74,15 @@ className="max-w-xl  mt-[50vh] px-10 py-4  rounded-3xl shadow-md bg-gray-800">
   </div>
 </motion.div>
 <motion.div
-initial={{x:-200}}
-whileInView={{x:0}}
+initial={{x:-200,rotate:30}}
+whileInView={{x:0,rotate:0}}
 whileHover={{x:50,scale:1.1}}
 transition={{duration:.5}}
 viewport={{
   amount:0.2,
   once:false
 }}
-className="max-w-xl  mt-[50vh] px-10 py-6  rounded-3xl shadow-md bg-orange-500">
+className="max-w-xl  mt-[50vh] px-10 py-6  rounded-3xl shadow-md bg-gray-500">
   <div className="flex items-center">
     <img className="w-12 h-12 rounded-full" src="https://via.placeholder.com/50" alt="Customer Photo"/>
     <div className="ml-4">

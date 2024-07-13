@@ -7,10 +7,10 @@ import pol4 from "../assets/images/pol4.jpg"
 import { motion } from "framer-motion"
 const ImageScroll = () => {
   return (
-   
-      <div       
-        className=' w-full bg-black flex justify-around items-start  '>
-         <div >
+
+       <div       
+        className=' w-full bg-black flex justify-around items-start '>
+         <div>
           <motion.img
           initial={{ x: -200, opacity: 0}}
           whileInView={{ x: 0, opacity: 1, rotate: 12 }}
@@ -50,17 +50,22 @@ const ImageScroll = () => {
           src={pol3} className='max-h-96 z-10 '></motion.img>
          
          </div>
-          <motion.img 
-          initial={{x:200}}
+         
+         <motion.img 
+          initial={{x:85}}
           whileInView={{x:0}}
           transition={{duration:1}}
           viewport={{
             once:false,
             amount:0.5
           }}
-          src={drone} className='sticky top-0  '></motion.img>
+          src={drone} className='sticky top-0   '></motion.img>
+        
+  
           
         </div>
+  
+   
 
   )
 }

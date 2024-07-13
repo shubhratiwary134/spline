@@ -7,7 +7,7 @@ import ComicPage from './Components/ComicPage';
 
 export default function App() {
   return (
-    <div  >
+    <div className='flex flex-col items-center' >
       <div className='h-screen  flex flex-col '>
       <div >
         <Navbar></Navbar>
@@ -17,13 +17,15 @@ export default function App() {
       </div>
     
       </div>
-     
+      
       <ImageScroll></ImageScroll>
+      <ComicPage></ComicPage>
       <ImageGallery></ImageGallery>
+      <button className='sticky bottom-10 border-2 border-white w-1/12 rounded-full text-white bg-black py-2 px-4'>Buy Now</button>
     {/* <div className=' flex w-full '>
      <Featured></Featured>
     </div> */}
-    <ComicPage></ComicPage>
+    
   
     </div>
    

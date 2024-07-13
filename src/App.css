@@ -29,7 +29,8 @@
   font-style: normal;
  }
  .ComicContainer{
-    background-image: url('./assets/images/backgroundParallax.jpg');
+    background-image: url('./assets/images/backgroundPara.jpg');
     background-repeat:no-repeat;
     background-size:cover;
+
  }

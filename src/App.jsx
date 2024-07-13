@@ -1,8 +1,10 @@
 import Spline from '@splinetool/react-spline';
 import Navbar from './Components/Navbar';
-import Featured from './Components/Featured';
+
 import ImageScroll from './Components/ImageScroll';
 import ImageGallery from './Components/ImageGallery';
+import ComicPage from './Components/ComicPage';
+
 export default function App() {
   return (
     <div  >
@@ -21,7 +23,7 @@ export default function App() {
     {/* <div className=' flex w-full '>
      <Featured></Featured>
     </div> */}
-    
+    <ComicPage></ComicPage>
   
     </div>
    

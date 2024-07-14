@@ -24,6 +24,7 @@ export default function App() {
       <ComicPage></ComicPage>
       <Logos></Logos>
       <ImageGallery></ImageGallery>
+     
     
      <motion.button 
       initial={{y:50,opacity:0}}

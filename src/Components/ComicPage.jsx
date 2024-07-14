@@ -154,7 +154,7 @@ viewport={{
   amount:0.2,
   once:false
 }}
-className="max-w-xl mx-auto mt-40 p-6 border rounded-lg shadow-md bg-white">
+className="max-w-xl mx-auto mt-40 p-6 border rounded-3xl shadow-md bg-white">
   <div className="flex items-center">
     <img className="w-12 h-12 rounded-full" src="https://via.placeholder.com/50" alt="Customer Photo"/>
     <div className="ml-4">

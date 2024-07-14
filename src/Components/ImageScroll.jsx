@@ -1,6 +1,6 @@
 
 import drone from "../assets/images/drone7.jpg"
-import pol1 from "../assets/images/pol1.jpg"
+import pol1 from "../assets/images/pol11.jpg"
 import pol2 from "../assets/images/pol2.jpg"
 import pol3 from "../assets/images/pol3.jpg"
 import pol4 from "../assets/images/pol4.jpg"

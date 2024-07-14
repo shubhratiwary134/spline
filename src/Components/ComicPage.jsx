@@ -5,9 +5,8 @@ const ComicPage = () => {
 <div className="flex justify-around">
 <div className="mt-20 flex flex-col gap-20 ">
 <motion.div
-initial={{x:-200}}
-whileInView={{x:0}}
-whileHover={{x:50,scale:1.1}}
+initial={{x:-200,opacity:0}}
+whileInView={{x:0,opacity:1}}
 transition={{duration:.5}}
 viewport={{
   amount:0.2,
@@ -34,8 +33,8 @@ className="max-w-xl mx-auto mt-8 px-10 py-6  rounded-3xl shadow-md bg-gray-800">
   </div>
 </motion.div>
 <motion.p 
-initial={{y:-100}}
-whileInView={{y:0}}
+initial={{y:-100,opacity:0}}
+whileInView={{y:0,opacity:1}}
 transition={{duration:.5}}
 viewport={{
   amount:0.1,
@@ -45,9 +44,8 @@ className="text-7xl text-orange-600 mb-20">
   Check Out The Sale!!
 </motion.p>
 <motion.div
-initial={{x:200}}
-whileInView={{x:0}}
-whileHover={{x:50,scale:1.1}}
+initial={{x:200,opacity:0}}
+whileInView={{x:0,opacity:1}}
 transition={{duration:.5}}
 viewport={{
   amount:0.2,
@@ -70,13 +68,13 @@ className="max-w-xl  mt-[50vh] px-10 py-4  rounded-3xl shadow-md bg-gray-800">
       <svg className="w-5 h-5 text-yellow-500" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.12 3.453a1 1 0 00.95.69h3.624c.969 0 1.371 1.24.588 1.81l-2.934 2.128a1 1 0 00-.364 1.118l1.12 3.453c.3.921-.755 1.688-1.538 1.118l-2.934-2.128a1 1 0 00-1.176 0l-2.934 2.128c-.783.57-1.838-.197-1.538-1.118l1.12-3.453a1 1 0 00-.364-1.118L2.791 8.88c-.783-.57-.381-1.81.588-1.81h3.624a1 1 0 00.95-.69l1.12-3.453z"/></svg>
       <svg className="w-5 h-5 text-white" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.12 3.453a1 1 0 00.95.69h3.624c.969 0 1.371 1.24.588 1.81l-2.934 2.128a1 1 0 00-.364 1.118l1.12 3.453c.3.921-.755 1.688-1.538 1.118l-2.934-2.128a1 1 0 00-1.176 0l-2.934 2.128c-.783.57-1.838-.197-1.538-1.118l1.12-3.453a1 1 0 00-.364-1.118L2.791 8.88c-.783-.57-.381-1.81.588-1.81h3.624a1 1 0 00.95-.69l1.12-3.453z"/></svg>
     </div>
-    <p className="mt-2 text-white">Awesome Experience</p>
+    <p className="mt-2 text-white">This product exceeded my expectations. The build quality is fantastic and it performs flawlessly. Highly recommend to anyone looking for a reliable and affordable option.</p>
   </div>
 </motion.div>
 <motion.div
-initial={{x:-200,rotate:30}}
-whileInView={{x:0,rotate:0}}
-whileHover={{x:50,scale:1.1}}
+initial={{x:-200,rotate:30,opacity:0}}
+whileInView={{x:0,rotate:0,opacity:1}}
+
 transition={{duration:.5}}
 viewport={{
   amount:0.2,
@@ -105,10 +103,10 @@ className="max-w-xl  mt-[50vh] px-10 py-6  rounded-3xl shadow-md bg-gray-500">
 </div>
 <div>
 <motion.div
-initial={{x:-200}}
+initial={{x:-200,opacity:0}}
 exit={{x:200}}
-whileInView={{x:0}}
-whileHover={{x:-50,scale:1.1}}
+whileInView={{x:0,opacity:1}}
+
 transition={{duration:.5}}
 viewport={{
   amount:0.2,
@@ -142,15 +140,15 @@ viewport={{
   amount:0.1,
   once:false
 }}
-className="text-7xl mb-[60vh] text-blue-700">
+className="text-9xl mb-[60vh] text-blue-700">
   Trending 
-  <span> fire emoji</span>
+  <span> !!</span>
 </motion.p>
 <motion.div
-initial={{x:-200}}
+initial={{x:-200,opacity:0}}
 exit={{x:200}}
-whileInView={{x:0}}
-whileHover={{x:-50,scale:1.1}}
+whileInView={{x:0,opacity:1}}
+
 transition={{duration:.5}}
 viewport={{
   amount:0.2,

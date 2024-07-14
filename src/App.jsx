@@ -5,6 +5,7 @@ import ImageScroll from './Components/ImageScroll';
 import ImageGallery from './Components/ImageGallery';
 import ComicPage from './Components/ComicPage';
 import { motion } from 'framer-motion';
+import Logos from './Components/Logos';
 
 export default function App() {
   return (
@@ -21,17 +22,14 @@ export default function App() {
      
       <ImageScroll></ImageScroll>
       <ComicPage></ComicPage>
+      <Logos></Logos>
       <ImageGallery></ImageGallery>
-      
-      <motion.button 
+    
+     <motion.button 
       initial={{y:50,opacity:0}}
       animate={{y:0,opacity:1}}
       transition={{duration:.5}}
       className='sticky bottom-5  border-white w-1/12  text-white bg-black py-2 px-6 border-2 rounded-full hover:bg-white hover:text-black duration-500'>Buy Now</motion.button>
-    {/* <div className=' flex w-full '>
-     <Featured></Featured>
-    </div> */}
-    
   
     </div>
    

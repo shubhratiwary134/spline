@@ -33,7 +33,9 @@ const ImageGallery = () => {
             <img src={headphoneImage2} className="hover:scale-105 duration-300"></img>
            </motion.div>
         </div>
+      
       </div>
+     
     </>
   
   )

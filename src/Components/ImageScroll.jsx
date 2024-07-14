@@ -1,6 +1,6 @@
 
 import drone from "../assets/images/drone7.jpg"
-import pol1 from "../assets/images/pol11.jpg"
+import pol1 from "../assets/images/pol5.jpg"
 import pol2 from "../assets/images/pol2.jpg"
 import pol3 from "../assets/images/pol3.jpg"
 import pol4 from "../assets/images/pol4.jpg"
@@ -9,7 +9,7 @@ const ImageScroll = () => {
   return (
 
        <div       
-        className=' w-full bg-black flex justify-around items-start '>
+        className=' w-full bg-black flex justify-around items-start'>
          <div>
           <motion.img
           initial={{ x: -200, opacity: 0}}

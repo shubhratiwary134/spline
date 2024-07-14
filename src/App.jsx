@@ -6,6 +6,7 @@ import ImageGallery from './Components/ImageGallery';
 import ComicPage from './Components/ComicPage';
 import { motion } from 'framer-motion';
 import Logos from './Components/Logos';
+import Event from './Components/Event';
 
 export default function App() {
   return (
@@ -24,7 +25,7 @@ export default function App() {
       <ComicPage></ComicPage>
       <Logos></Logos>
       <ImageGallery></ImageGallery>
-     
+     <Event></Event>
     
      <motion.button 
       initial={{y:50,opacity:0}}

@@ -8,7 +8,7 @@ import hope from '../assets/images/hope.jpg'
 import { FaArrowRightLong } from "react-icons/fa6"
 
 const Event = () => {
-  
+  const controls = useAnimation()
   return (
     <div className='w-screen h-[180vh] bg-white flex flex-col items-center   p-10 '>
       <motion.div 
@@ -70,9 +70,19 @@ const Event = () => {
         </motion.div>
         
         <motion.div
+         onHoverStart={() => controls.start({ opacity: 1 })}
+         onHoverEnd={() => controls.start({ opacity: 0 })}
         className="col-span-6 row-span-2   text-wrap p-2 flex  justify-around  ">
           <button className="text-8xl">View More</button>
-        <FaArrowRightLong size={96} className="self-end  "/>
+          <motion.div
+           initial={{ opacity: 0 }}
+           animate={controls}
+           transition={{ duration: 0.5 }}
+           className="self-end"
+          >
+          <FaArrowRightLong size={96} className="self-end  "/>
+          </motion.div>
+       
         </motion.div>
         
         

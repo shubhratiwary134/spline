@@ -1,5 +1,5 @@
 
-import { motion } from "framer-motion"
+import { motion, useAnimation } from "framer-motion"
 import group from "../assets/images/speaking.jpg"
 import public1 from '../assets/images/publicbento.jpg'
 import public2 from '../assets/images/publicbento2.jpg'
@@ -8,6 +8,7 @@ import hope from '../assets/images/hope.jpg'
 import { FaArrowRightLong } from "react-icons/fa6"
 
 const Event = () => {
+  
   return (
     <div className='w-screen h-[180vh] bg-white flex flex-col items-center   p-10 '>
       <motion.div 
@@ -68,7 +69,8 @@ const Event = () => {
         <img src={hope} className="w-full h-full object-cover rounded-2xl hover:scale-110 duration-300"></img>
         </motion.div>
         
-        <motion.div className="col-span-6 row-span-2   text-wrap p-2 flex  justify-around  ">
+        <motion.div
+        className="col-span-6 row-span-2   text-wrap p-2 flex  justify-around  ">
           <button className="text-8xl">View More</button>
         <FaArrowRightLong size={96} className="self-end  "/>
         </motion.div>

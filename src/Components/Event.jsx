@@ -5,38 +5,73 @@ import public1 from '../assets/images/publicbento.jpg'
 import public2 from '../assets/images/publicbento2.jpg'
 import award from '../assets/images/award.jpg'
 import hope from '../assets/images/hope.jpg'
+import { FaArrowRightLong } from "react-icons/fa6"
+
 const Event = () => {
   return (
-    <div className='w-screen h-screen bg-zinc-900 flex flex-col items-center justify-between p-10'>
-      <div className="text-purple-600 text-7xl font-extrabold ">ElectroFest 2024</div>
-      <div className="w-full h-2/3 grid-container grid grid-cols-12 grid-rows-10 gap-4">
+    <div className='w-screen h-[180vh] bg-white flex flex-col items-center   p-10 '>
+      <motion.div 
+      initial={{y:-20,opacity:0}}
+      whileInView={{y:0,opacity:1}}
+      transition={{duration:.8}}
+      viewport={{
+        amount:0.5,
+        once:false
+      }}
+      className="text-zinc-900 text-7xl event-Heading ">ElectroFest 2024</motion.div>
+      <div className="w-full h-3/4 grid-container grid grid-cols-12 grid-rows-12 gap-4 mt-20">
         <motion.div
         initial={{x:30}}
         whileInView={{x:0}}
         transition={{duration:.5}}
         viewport={{
-          once:false
+          once:true
         }}
-        className="col-span-4 row-span-4 overflow-hidden flex justify-center items-center rounded-2xl  bg-white">
+        className="col-span-6 row-span-6 overflow-hidden flex justify-center items-center rounded-2xl  ">
            <img src={public1} className="w-full h-full object-cover rounded-lg hover:scale-110 duration-300"></img>
         </motion.div>
-        <div className="col-span-6 row-span-8 bg-white rounded-2xl overflow-hidden">
+      
+        <motion.div
+        initial={{y:-20}}
+        whileInView={{y:0}}
+        transition={{duration:1}}
+        viewport={{
+          amount:0.5,
+          once:true
+        }}
+        className="col-span-6 row-span-10  rounded-2xl overflow-hidden">
         <img src={group} className="w-full h-full object-cover rounded-lg hover:scale-110 duration-300"></img>
-        </div>
-        <div className="col-span-2 row-span-6 bg-white  rounded-2xl">
-        <img src={public2} className="w-full h-full object-cover rounded-2xl hover:scale-110 duration-300"></img>
-        </div>
+        </motion.div>
         
-        <div className="col-span-2 row-span-6 bg-white overflow-hidden rounded-2xl">
-        <img src={hope} className="w-full h-full object-cover rounded-2xl hover:scale-110 duration-300"></img>
-        </div>
-        <div className="col-span-2 row-span-4 bg-white rounded-2xl overflow-hidden">
+        
+        
+        <motion.div 
+        initial={{x:-20}}
+        whileInView={{x:0}}
+        transition={{duration:1}}
+        viewport={{
+          amount:0.2,
+          once:true
+        }}
+        className="col-span-3 row-span-6  rounded-2xl overflow-hidden">
         <img src={award} className="w-full h-full object-cover rounded-lg hover:scale-110 duration-300"></img>
-        </div>
-        <div className="col-span-2 row-span-4 bg-white rounded-2xl "></div>
-        <div className="col-span-8 row-span-2 bg-white rounded-2xl p-2 flex justify-center items-center">
-          <p className="text-black font-extrabold text-2xl">Engage with industry experts discussing the future trends in electronics</p>
-        </div>
+        </motion.div>
+        <motion.div 
+        initial={{y:20}}
+        whileInView={{y:0}}
+        transition={{duration:1}}
+        viewport={{
+          amount:0.2,
+          once:true
+        }}
+        className="col-span-3 row-span-6  overflow-hidden rounded-2xl">
+        <img src={hope} className="w-full h-full object-cover rounded-2xl hover:scale-110 duration-300"></img>
+        </motion.div>
+        
+        <motion.div className="col-span-6 row-span-2   text-wrap p-2 flex  justify-around  ">
+          <button className="text-8xl">View More</button>
+        <FaArrowRightLong size={96} className="self-end  "/>
+        </motion.div>
         
         
       </div>

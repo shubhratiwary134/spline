@@ -30,7 +30,7 @@ const Footer = () => {
           </div>
           <div >
           <div>
-            <img src={footerImage} className="h-48"></img>
+            <img src={footerImage} className="h-48 rounded-3xl  shadow-2xl shadow-black"></img>
           </div>
         </div>
           <div>
@@ -62,7 +62,7 @@ const Footer = () => {
         </div>
         <div >
           <div>
-            <img src={footerImage} className="h-48"></img>
+            <img src={footerImage} className="h-48 rounded-3xl shadow-2xl shadow-black"></img>
           </div>
         </div>
           <div >
@@ -111,7 +111,7 @@ const Footer = () => {
           </div>
         </div>
         <div>
-          <img src ={footerImage} className="h-48 "></img>
+          <img src ={footerImage} className="h-48 rounded-3xl shadow-2xl shadow-black "></img>
         </div>
         <div >
 
@@ -140,7 +140,7 @@ const Footer = () => {
         </div>
         
        
-       {/* <div className="flex justify-center ">
+       <div className="flex justify-between">
        
        <div className="flex flex-col">
         <div>Contact</div>
@@ -150,27 +150,30 @@ const Footer = () => {
         <div className="text-sm text-gray-700 text-wrap">
         Email: info@innovativeelectronics.in
         </div>
-       </div>
-       </div> */}
-       </div>
-     
-        
-       
-        <div className="flex justify-between text-base items-center ">
-          <div >
+        <div className="text-sm">
+          <div>
           123 Tech Park Avenue,
 Sector 21,
 Hitech City,
 Bengaluru, Karnataka 560100,
 India
           </div>
-         
-        <div className="flex">
+          </div>
+
+          
+       </div>
+       <div className="flex">
         <FaYoutube size={36}/>
         <BiLogoInstagramAlt size={36} />
         <SiGmail size={36} />
         </div>
-        </div>
+       </div>
+      
+       </div>
+     
+        
+       
+       
      
      
       

@@ -14,9 +14,9 @@ export default function App() {
   return (
     <div className='flex flex-col items-center' >
       <div className='h-screen  flex flex-col '>
-      {/* <div >
+      <div >
         <Navbar></Navbar>
-      </div> */}
+      </div>
       <div className='flex-1 overflow-hidden'>
       <Spline scene="https://prod.spline.design/9mRzVM9RPXfj6yHY/scene.splinecode"/>
       </div>

@@ -33,7 +33,7 @@ export default function App() {
       initial={{y:50,opacity:0}}
       animate={{y:0,opacity:1}}
       transition={{duration:.5}}
-      className='sticky bottom-5  border-white w-1/24  text-white bg-black py-2 px-6 border-2 rounded-full hover:bg-white hover:text-black hover:border-black duration-500'>
+      className='sticky bottom-5  border-white w-1/24  flex justify-center text-white bg-black py-2 px-4 border-2 rounded-full hover:bg-white hover:text-black hover:border-black duration-500'>
         <MdOutlineShoppingCart size={36}/>
       </motion.button>
      

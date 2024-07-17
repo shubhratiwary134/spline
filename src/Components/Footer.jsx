@@ -40,16 +40,22 @@ const Footer = () => {
           <div className="text-base text-gray-700  flex flex-col ">
             <ol className="list-disc list-inside">
               <li>
-              Product Support
+              Our Story
               </li>
               <li>
-              Customer Assistance
+              Mission and Vision
               </li>
               <li>
-              Service Centers
+              What We Do
               </li>
               <li>
-              Installation & Setup
+              Our Team
+              </li>
+              <li>
+              Customer Commitment
+              </li>
+              <li>
+              Sustainability and Social Responsibility
               </li>
             </ol>
           </div>

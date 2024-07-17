@@ -5,7 +5,7 @@ import footerImage from "../assets/images/footer.jpg"
 
 const Footer = () => {
   return (
-    <div className='w-full  px-10  text-3xl footer-container font-serif flex flex-col gap-10'>
+    <div className='w-full  px-10 rounded-2xl text-3xl footer-container font-serif flex flex-col gap-10'>
       
       <div className="flex flex-col gap-10 mt-10">
         <div className="flex justify-between">
@@ -28,26 +28,37 @@ const Footer = () => {
             </ol>
           </div>
           </div>
-      
-        <div >
-          <div  >Quick Links</div>
-          <div className="text-base text-gray-700 flex flex-col ">
+          <div >
+          <div>
+            <img src={footerImage} className="h-48"></img>
+          </div>
+        </div>
+          <div>
+          <div>
+            About Us
+          </div>
+          <div className="text-base text-gray-700  flex flex-col ">
             <ol className="list-disc list-inside">
               <li>
-                shop
+              Product Support
               </li>
               <li>
-                Events
+              Customer Assistance
               </li>
               <li>
-                Blog
+              Service Centers
               </li>
               <li>
-                Privacy Policy
+              Installation & Setup
               </li>
             </ol>
           </div>
-          </div> 
+        </div>
+        <div >
+          <div>
+            <img src={footerImage} className="h-48"></img>
+          </div>
+        </div>
           <div >
           <div  >Quick Links</div>
           <div className="text-base text-gray-700 flex flex-col ">
@@ -123,18 +134,18 @@ const Footer = () => {
         </div>
         
        
-       <div className="flex justify-center ">
+       {/* <div className="flex justify-center ">
        
-       <div >
+       <div className="flex flex-col">
         <div>Contact</div>
-        <div className="text-base text-gray-700 ">
+        <div className="text-sm text-gray-700">
         Phone: +91-80-1234-5678
-        </div>
-        <div className="text-base text-gray-700 ">
+        </div> 
+        <div className="text-sm text-gray-700 text-wrap">
         Email: info@innovativeelectronics.in
         </div>
        </div>
-       </div>
+       </div> */}
        </div>
      
         

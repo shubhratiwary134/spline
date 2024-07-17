@@ -14,9 +14,9 @@ export default function App() {
   return (
     <div className='flex flex-col items-center' >
       <div className='h-screen  flex flex-col '>
-      <div >
+      {/* <div >
         <Navbar></Navbar>
-      </div>
+      </div> */}
       <div className='flex-1 overflow-hidden'>
       <Spline scene="https://prod.spline.design/9mRzVM9RPXfj6yHY/scene.splinecode"/>
       </div>
@@ -33,8 +33,8 @@ export default function App() {
       initial={{y:50,opacity:0}}
       animate={{y:0,opacity:1}}
       transition={{duration:.5}}
-      className='sticky bottom-5  border-white w-1/12  text-white bg-black py-2 px-6 border-2 rounded-full hover:bg-white hover:text-black hover:border-black duration-500'>
-        <MdOutlineShoppingCart size={72}/>
+      className='sticky bottom-5  border-white w-1/24  text-white bg-black py-2 px-6 border-2 rounded-full hover:bg-white hover:text-black hover:border-black duration-500'>
+        <MdOutlineShoppingCart size={36}/>
       </motion.button>
      
   

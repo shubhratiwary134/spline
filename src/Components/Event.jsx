@@ -2,7 +2,7 @@
 import { motion, useAnimation } from "framer-motion"
 import group from "../assets/images/speaking.jpg"
 import public1 from '../assets/images/publicbento.jpg'
-import public2 from '../assets/images/publicbento2.jpg'
+
 import award from '../assets/images/award.jpg'
 import hope from '../assets/images/hope.jpg'
 import { FaArrowRightLong } from "react-icons/fa6"
@@ -72,15 +72,15 @@ const Event = () => {
         <motion.div
          onHoverStart={() => controls.start({ opacity: 1 })}
          onHoverEnd={() => controls.start({ opacity: 0 })}
-        className="col-span-6 row-span-2   text-wrap p-2 flex  justify-around  ">
-          <button className="text-8xl">View More</button>
+        className="col-span-6 row-span-2   text-wrap p-2 flex  justify-center   items-center gap-10 ">
+          <button className="text-8xl event-ViewMore ">View More</button>
           <motion.div
            initial={{ opacity: 0 }}
            animate={controls}
            transition={{ duration: 0.5 }}
-           className="self-end"
+         
           >
-          <FaArrowRightLong size={96} className="self-end  "/>
+          <FaArrowRightLong size={72} />
           </motion.div>
        
         </motion.div>

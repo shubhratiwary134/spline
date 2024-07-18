@@ -5,13 +5,15 @@ import footerImage from "../assets/images/footer.jpg"
 
 const Footer = () => {
   return (
-    <div className='w-full px-10 rounded-2xl  text-3xl footer-container font-mono flex flex-col gap-10'>
-      
-      <div className="flex flex-col gap-10 mt-10">
+    <div className='w-full rounded-2xl  text-xl footer-container font-mono flex  gap-10'>
+      <div>
+        <img src={footerImage} className="shadow-md mt-5"></img>
+      </div>
+      <div className="flex flex-col gap-10 mt-10 ">
         <div className="flex justify-between">
           <div >
           <div  >Customer Service</div>
-         <div className="text-base text-gray-700  flex flex-col ">
+         <div className="text-sm text-gray-700  flex flex-col ">
             <ol className="list-disc list-inside">
               <li>
                 Returns and Exchange
@@ -28,16 +30,33 @@ const Footer = () => {
             </ol>
           </div>
           </div>
+         
+         
+        
           <div >
-          <div>
-            <img src={footerImage} className="h-48 rounded-3xl  shadow-sm shadow-black"></img>
+          <div  >Quick Links</div>
+          <div className="text-sm text-gray-700 flex flex-col ">
+            <ol className="list-disc list-inside">
+              <li>
+                shopping
+              </li>
+              <li>
+                Events
+              </li>
+              <li>
+                Blogs
+              </li>
+              <li>
+                Privacy Policy
+              </li>
+            </ol>
           </div>
-        </div>
+          </div> 
           <div>
           <div>
             About Us
           </div>
-          <div className="text-base text-gray-700  flex flex-col ">
+          <div className="text-sm text-gray-700  flex flex-col items-end ">
             <ol className="list-disc list-inside">
               <li>
               Our Story
@@ -54,46 +73,20 @@ const Footer = () => {
               <li>
               Customer Commitment
               </li>
-              <li>
-              Sustainability and Social Responsibility
-              </li>
+            
             </ol>
           </div>
         </div>
-        <div >
-          <div>
-            <img src={footerImage} className="h-48 rounded-3xl shadow-sm shadow-black"></img>
-          </div>
-        </div>
-          <div >
-          <div  >Quick Links</div>
-          <div className="text-base text-gray-700 flex flex-col ">
-            <ol className="list-disc list-inside">
-              <li>
-                shop
-              </li>
-              <li>
-                Events
-              </li>
-              <li>
-                Blog
-              </li>
-              <li>
-                Privacy Policy
-              </li>
-            </ol>
-          </div>
-          </div> 
         </div>
         
        
        
-        <div className="flex justify-around">
+        <div className="flex justify-between">
         <div>
           <div>
             service
           </div>
-          <div className="text-base text-gray-700  flex flex-col ">
+          <div className="text-sm text-gray-700  flex flex-col ">
             <ol className="list-disc list-inside">
               <li>
               Product Support
@@ -111,13 +104,35 @@ const Footer = () => {
           </div>
         </div>
         <div>
-          <img src ={footerImage} className="h-48 rounded-3xl shadow-sm shadow-black "></img>
+          <div>
+            About Us
+          </div>
+          <div className="text-sm text-gray-700  flex flex-col items-end ">
+            <ol className="list-disc list-inside">
+              <li>
+              Our Story
+              </li>
+              <li>
+              Mission and Vision
+              </li>
+              <li>
+              What We Do
+              </li>
+              <li>
+              Our Team
+              </li>
+              <li>
+              Customer Commitment
+              </li>
+            
+            </ol>
+          </div>
         </div>
         <div >
 
          
           <div>Payment</div>
-          <div className="text-base text-gray-700  flex flex-col ">
+          <div className="text-sm text-gray-700  flex flex-col ">
             <ol className="list-disc list-inside">
               <li>
               Product Support

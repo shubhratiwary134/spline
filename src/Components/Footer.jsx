@@ -7,7 +7,7 @@ const Footer = () => {
   return (
     <div className='w-full rounded-2xl  text-xl footer-container font-mono flex  gap-10'>
       <div>
-        <img src={footerImage} className="shadow-md mt-5"></img>
+        <img src={footerImage} className="shadow-xl rounded-xl m-5"></img>
       </div>
       <div className="flex flex-col gap-10 mt-10 ">
         <div className="flex justify-between">
@@ -48,6 +48,15 @@ const Footer = () => {
               </li>
               <li>
                 Privacy Policy
+              </li>
+              <li>
+              New Arrivals
+              </li>
+              <li>
+              Wish List
+              </li>
+              <li>
+              Newsletter Subscription
               </li>
             </ol>
           </div>
@@ -124,6 +133,9 @@ const Footer = () => {
               <li>
               Customer Commitment
               </li>
+              <li>
+              Future Goals
+              </li>
             
             </ol>
           </div>
@@ -146,9 +158,7 @@ const Footer = () => {
               <li>
                Offers and Discount
               </li>
-              <li>
-              International Payments
-              </li>
+             
             </ol>
           </div>
           </div>  

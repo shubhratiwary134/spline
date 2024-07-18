@@ -5,7 +5,7 @@ import footerImage from "../assets/images/footer.jpg"
 
 const Footer = () => {
   return (
-    <div className='w-full  px-10 rounded-2xl text-3xl footer-container font-serif flex flex-col gap-10'>
+    <div className='w-full px-10 rounded-2xl  text-3xl footer-container font-mono flex flex-col gap-10'>
       
       <div className="flex flex-col gap-10 mt-10">
         <div className="flex justify-between">
@@ -30,7 +30,7 @@ const Footer = () => {
           </div>
           <div >
           <div>
-            <img src={footerImage} className="h-48 rounded-3xl  shadow-2xl shadow-black"></img>
+            <img src={footerImage} className="h-48 rounded-3xl  shadow-sm shadow-black"></img>
           </div>
         </div>
           <div>
@@ -62,7 +62,7 @@ const Footer = () => {
         </div>
         <div >
           <div>
-            <img src={footerImage} className="h-48 rounded-3xl shadow-2xl shadow-black"></img>
+            <img src={footerImage} className="h-48 rounded-3xl shadow-sm shadow-black"></img>
           </div>
         </div>
           <div >
@@ -111,7 +111,7 @@ const Footer = () => {
           </div>
         </div>
         <div>
-          <img src ={footerImage} className="h-48 rounded-3xl shadow-2xl shadow-black "></img>
+          <img src ={footerImage} className="h-48 rounded-3xl shadow-sm shadow-black "></img>
         </div>
         <div >
 

@@ -47,7 +47,7 @@ const ImageScroll = () => {
               once:false,
               amount:0.5
             }}
-          src={pol3} className='max-h-96 z-10 '></motion.img>
+          src={pol3} className='max-h-96  '></motion.img>
          
          </div>
          

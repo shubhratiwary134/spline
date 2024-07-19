@@ -14,10 +14,10 @@ const ImageGallery = () => {
     target:ref,
   })
   
-  const x = useTransform(scrollYProgress,[0,1], ["1%","-155%"])
+  const x = useTransform(scrollYProgress,[0,1], ["1%","-185%"])
   return (
     <>
-      <div ref={ref} className=' relative h-[500vh] bg-neutral-900'>
+      <div ref={ref} className=' relative h-[500vh] p-20 bg-neutral-900'>
         <div className=' sticky top-0 h-screen flex  overflow-hidden'>
            <motion.div style={{x}} className="flex  ">
          

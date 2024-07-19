@@ -18,7 +18,7 @@ const ImageScroll = () => {
           transition={{ duration: 1 }}
           viewport={{ once: false, amount: 0.5 }}
           src={pol1}
-          className='max-h-96'></motion.img>
+          className='max-h-96 mb-20'></motion.img>
          
           <motion.img 
            initial={{x:-200,opacity:0}}
@@ -26,7 +26,7 @@ const ImageScroll = () => {
            exit={{x:-200,opacity:0}}
             transition={{duration:1}}
             viewport={{ once:false,amount:0.5}}
-          src={pol2 } className='max-h-96'></motion.img>
+          src={pol2 } className='max-h-96 mb-20'></motion.img>
         
           <motion.img
            initial={{x:-200,opacity:0}}
@@ -37,7 +37,7 @@ const ImageScroll = () => {
               once:false,
               amount:0.5
             }}
-          src={pol4} className='max-h-96   '></motion.img>
+          src={pol4} className='max-h-96  my-20 '></motion.img>
           <motion.img 
            initial={{x:-200,opacity:0}}
            whileInView={{x:0,opacity:1,rotate:45}}

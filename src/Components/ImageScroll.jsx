@@ -1,9 +1,9 @@
 
 import drone from "../assets/images/drone7.jpg"
-import pol1 from "../assets/images/pol5.jpg"
-import pol2 from "../assets/images/pol2.jpg"
-import pol3 from "../assets/images/pol3.jpg"
-import pol4 from "../assets/images/pol4.jpg"
+import pol1 from "../assets/images/polaroid1.jpg"
+import pol2 from "../assets/images/polaroid2.jpg"
+import pol3 from "../assets/images/polaroid3.jpg"
+import pol4 from "../assets/images/polaroid4.jpg"
 import { motion } from "framer-motion"
 const ImageScroll = () => {
   return (

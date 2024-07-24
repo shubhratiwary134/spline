@@ -17,20 +17,21 @@ const ImageGallery = () => {
   const x = useTransform(scrollYProgress,[0,1], ["1%","-185%"])
   return (
     <>
-      <div ref={ref} className=' relative h-[500vh] p-20 bg-neutral-900'>
+      <div ref={ref} className=' relative h-[500vh] p-10 bg-neutral-900'>
         <div className=' sticky top-0 h-screen flex  overflow-hidden'>
            <motion.div style={{x}} className="flex  ">
          
-            <img src={imageCamera} className="hover:scale-105 duration-300"></img>
+            
           
           
-            <img src={headphoneImage}  className="hover:scale-105 duration-300"></img>
-            <img src={Xbox} className="hover:scale-105 duration-300"></img>
-            <img src={watch}  className="hover:scale-105 duration-300" ></img>
-           
-            <img src={Speaker}   className="hover:scale-105 duration-300"></img>
-            <img src={Mobile} className="hover:scale-105 duration-300" ></img>
-            <img src={headphoneImage2} className="hover:scale-105 duration-300"></img>
+            <ImageComponent source={imageCamera}></ImageComponent>
+            <ImageComponent source={headphoneImage}></ImageComponent>
+            <ImageComponent source={Xbox}></ImageComponent>
+           <ImageComponent source={watch}></ImageComponent>
+           <ImageComponent source={Mobile}></ImageComponent>
+           <ImageComponent source={Speaker}></ImageComponent>
+           <ImageComponent source={headphoneImage2}></ImageComponent>
+       
            </motion.div>
         </div>
       
@@ -39,6 +40,11 @@ const ImageGallery = () => {
     </>
   
   )
+  function ImageComponent({source}){
+    return (
+      <img src={source} className="hover:scale-105 duration-300"></img>
+    )
+  }
 }
 
 export default ImageGallery

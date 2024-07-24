@@ -3,11 +3,13 @@ import { FaYoutube } from "react-icons/fa"
 import { SiGmail } from "react-icons/si"
 import footerImage from "../assets/images/footer.jpg"
 
+
 const Footer = () => {
   return (
     <div className='w-full rounded-2xl  text-xl footer-container font-mono flex  gap-10'>
       <div>
         <img src={footerImage} className="shadow-xl rounded-xl m-5"></img>
+       
       </div>
       <div className="flex flex-col gap-10 mt-10 ">
         <div className="flex justify-between">

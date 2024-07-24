@@ -10,7 +10,8 @@ import { FaArrowRightLong } from "react-icons/fa6"
 const Event = () => {
   const controls = useAnimation()
   return (
-    <div className='w-screen h-[180vh] bg-white flex flex-col items-center   p-10 '>
+    <div className='w-screen h-[180vh] bg-white
+     flex flex-col items-center   p-10 '>
       <motion.div 
       initial={{y:-20,opacity:0}}
       whileInView={{y:0,opacity:1}}
@@ -19,7 +20,7 @@ const Event = () => {
         amount:0.5,
         once:false
       }}
-      className="text-zinc-900 text-7xl event-Heading ">ElectroFest 2024</motion.div>
+      className="text-zinc-900 text-8xl event-Heading ">ElectroFest 2024</motion.div>
       <div className="w-full h-3/4 grid-container grid grid-cols-12 grid-rows-12 gap-4 mt-20">
         <motion.div
         initial={{x:30}}

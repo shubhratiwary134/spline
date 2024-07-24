@@ -13,7 +13,7 @@ const Event = () => {
     <div className='w-screen h-[180vh] bg-white
      flex flex-col items-center   p-10 '>
       <motion.div 
-      initial={{y:-20,opacity:0}}
+      initial={{y:20,opacity:0}}
       whileInView={{y:0,opacity:1}}
       transition={{duration:.8}}
       viewport={{

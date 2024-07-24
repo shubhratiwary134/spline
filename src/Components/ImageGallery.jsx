@@ -42,7 +42,7 @@ const ImageGallery = () => {
   )
   function ImageComponent({source}){
     return (
-      <img src={source} className="hover:scale-105 duration-300"></img>
+      <img src={source} className="hover:scale-105 duration-300  "></img>
     )
   }
 }

@@ -40,7 +40,7 @@ viewport={{
   amount:0.1,
   once:false
 }}
-className="text-5xl ml-5 text-orange-600 mb-20">
+className="text-5xl ml-5 xl:text-7xl xl:ml-0 text-orange-600 mb-20">
   Check Out The Sale!!
 </motion.p>
 <motion.div
@@ -140,7 +140,7 @@ viewport={{
   amount:0.1,
   once:false
 }}
-className="text-8xl mb-[60vh] text-blue-700">
+className="text-8xl xl:text-9xl mb-[60vh] text-blue-700">
   Trending 
   <span> !!</span>
 </motion.p>

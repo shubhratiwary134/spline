@@ -32,7 +32,7 @@ className="max-w-lg xl:max-w-xl mx-auto mt-8 px-10 py-6  rounded-3xl shadow-md b
     <p className="mt-2 text-white">This product exceeded my expectations. The build quality is fantastic and it performs flawlessly. Highly recommend to anyone looking for a reliable and affordable option.</p>
   </div>
 </motion.div>
-<motion.p 
+<motion.a 
 initial={{y:-100,opacity:0}}
 whileInView={{y:0,opacity:1}}
 transition={{duration:.5}}
@@ -40,9 +40,10 @@ viewport={{
   amount:0.1,
   once:false
 }}
+href='#'
 className="text-5xl ml-5 xl:text-7xl xl:ml-0 text-orange-600 mb-20">
   Check Out The Sale!!
-</motion.p>
+</motion.a>
 <motion.div
 initial={{x:200,opacity:0}}
 whileInView={{x:0,opacity:1}}
@@ -80,7 +81,7 @@ viewport={{
   amount:0.2,
   once:false
 }}
-className="max-w-lg  mt-[50vh] px-10 py-6  rounded-3xl shadow-md bg-gray-500">
+className="max-w-lg xl:max-w-xl mt-[50vh] px-10 py-6  rounded-3xl shadow-md bg-gray-500">
   <div className="flex items-center">
     <img className="w-12 h-12 rounded-full" src="https://via.placeholder.com/50" alt="Customer Photo"/>
     <div className="ml-4">
@@ -112,7 +113,7 @@ viewport={{
   amount:0.2,
   once:false
 }}
-className="max-w-lg mx-auto mt-8 mb-[70vh] p-6 border rounded-3xl shadow-md bg-white">
+className="max-w-lg xl:max-w-xl mx-auto mt-8 mb-[70vh] p-6 border rounded-3xl shadow-md bg-white">
   <div className="flex items-center">
     <img className="w-12 h-12 rounded-full" src="https://via.placeholder.com/50" alt="Customer Photo"/>
     <div className="ml-4">
@@ -132,7 +133,7 @@ className="max-w-lg mx-auto mt-8 mb-[70vh] p-6 border rounded-3xl shadow-md bg-w
     <p className="mt-2 text-gray-800">This product exceeded my expectations. The build quality is fantastic and it performs flawlessly. Highly recommend to anyone looking for a reliable and affordable option.</p>
   </div>
 </motion.div>
-<motion.p
+<motion.a
 initial={{y:100}}
 whileInView={{y:0}}
 transition={{duration:.5}}
@@ -140,10 +141,11 @@ viewport={{
   amount:0.1,
   once:false
 }}
+href='#'
 className="text-8xl xl:text-9xl mb-[60vh] text-blue-700">
   Trending 
   <span> !!</span>
-</motion.p>
+</motion.a>
 <motion.div
 initial={{x:-200,opacity:0}}
 exit={{x:200}}
@@ -154,7 +156,7 @@ viewport={{
   amount:0.2,
   once:false
 }}
-className="max-w-lg mx-auto mt-40 p-6 border rounded-3xl shadow-md bg-white">
+className="max-w-lg xl:max-w-xl mx-auto mt-40 p-6 border rounded-3xl shadow-md bg-white">
   <div className="flex items-center">
     <img className="w-12 h-12 rounded-full" src="https://via.placeholder.com/50" alt="Customer Photo"/>
     <div className="ml-4">

@@ -9,7 +9,7 @@ const ImageScroll = () => {
   return (
 
        <div       
-        className=' w-full bg-black flex justify-around items-start'>
+        className=' w-full bg-black flex justify-center gap-20 lg:justify-around lg:gap-0 items-start'>
          <div>
           <motion.img
           initial={{ x: -200, opacity: 0}}
@@ -18,7 +18,7 @@ const ImageScroll = () => {
           transition={{ duration: 1 }}
           viewport={{ once: false, amount: 0.5 }}
           src={pol1}
-          className='lg:max-h-80 mb-10 xl:max-h-96'></motion.img>
+          className='md:max-h-80 lg:max-h-80 mb-10 xl:max-h-96'></motion.img>
          
           <motion.img 
            initial={{x:-200,opacity:0}}
@@ -26,7 +26,7 @@ const ImageScroll = () => {
            exit={{x:-200,opacity:0}}
             transition={{duration:1}}
             viewport={{ once:false,amount:0.5}}
-          src={pol2 } className='lg:max-h-80 mb-10 xl:max-h-96'></motion.img>
+          src={pol2 } className='md:max-h-80 lg:max-h-80 mb-10 xl:max-h-96'></motion.img>
         
           <motion.img
            initial={{x:-200,opacity:0}}
@@ -37,7 +37,7 @@ const ImageScroll = () => {
               once:false,
               amount:0.5
             }}
-          src={pol4} className='lg:max-h-80 mb-10 xl:max-h-96'></motion.img>
+          src={pol4} className='md:max-h-80 lg:max-h-80 mb-10 xl:max-h-96'></motion.img>
           <motion.img 
            initial={{x:-200,opacity:0}}
            whileInView={{x:0,opacity:1,rotate:45}}
@@ -47,7 +47,7 @@ const ImageScroll = () => {
               once:false,
               amount:0.5
             }}
-          src={pol3} className='lg:max-h-80 xl:max-h-96 '></motion.img>
+          src={pol3} className='md:max-h-80 lg:max-h-80 xl:max-h-96 '></motion.img>
          
          </div>
          
@@ -59,7 +59,7 @@ const ImageScroll = () => {
             once:false,
             amount:0.5
           }}
-          src={drone} className='sticky top-0  lg:h-80 xl:h-96 '></motion.img>
+          src={drone} className='sticky top-0 md:h-72 lg:h-80 xl:h-96'></motion.img>
         
   
           

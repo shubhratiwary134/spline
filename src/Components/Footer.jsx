@@ -6,7 +6,7 @@ import footerImage from "../assets/images/footer.jpg"
 
 const Footer = () => {
   return (
-    <div className='w-full rounded-2xl  text-xl footer-container font-mono flex  gap-10'>
+    <div className='w-full px-5 rounded-2xl  text-xl footer-container font-mono flex gap-10'>
       <div>
         <img src={footerImage} className="shadow-xl rounded-xl m-5"></img>
        

@@ -20,7 +20,7 @@ const ImageGallery = () => {
       <div ref={ref} className=' relative h-[500vh] p-10 bg-neutral-900'>
         <div className=' sticky top-0 h-screen flex  overflow-hidden'>
            <motion.div style={{x}} className="flex  ">
-         
+      
             
           
           

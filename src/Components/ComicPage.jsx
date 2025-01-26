@@ -41,7 +41,7 @@ viewport={{
   once:false
 }}
 href='#'
-className="text-5xl ml-5 xl:text-7xl xl:ml-0 text-orange-600 mb-20">
+className="text-5xl ml-5 xl:text-7xl font-bold xl:ml-0 text-orange-600 mb-20">
   Check Out The Sale!!
 </motion.a>
 <motion.div
@@ -142,7 +142,7 @@ viewport={{
   once:false
 }}
 href='#'
-className="text-8xl xl:text-9xl mb-[60vh] text-blue-700">
+className="text-8xl font-bold xl:text-9xl mb-[60vh] text-white">
   Trending 
   <span> !!</span>
 </motion.a>

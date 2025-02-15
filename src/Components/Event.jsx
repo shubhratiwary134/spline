@@ -10,7 +10,7 @@ import { FaArrowRightLong } from "react-icons/fa6"
 const Event = () => {
   const controls = useAnimation()
   return (
-    <div className='w-screen h-[180vh] bg-white
+    <div className='w-screen  bg-white
      flex flex-col items-center   p-10 '>
       <motion.div 
       initial={{y:20,opacity:0}}
